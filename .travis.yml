@@ -9,5 +9,5 @@ addons:
   token: travis encrypt 979b12389b2e79bfff3b7c5c14c6f9a13e296a65
 
 script: 
- -ant build
- -sonar-scanner
+ - ant build
+ - sonar-scanner
