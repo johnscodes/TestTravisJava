@@ -2,4 +2,12 @@ language: java
 jdk:
 - openjdk14
 - oraclejdk14
-script: ant build
+
+addons:
+ sonarcloud:
+  organization: john
+   token: travis encrypt 979b12389b2e79bfff3b7c5c14c6f9a13e296a65
+
+script: 
+ -ant build
+ -sonar-scanner
