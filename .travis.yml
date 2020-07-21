@@ -5,9 +5,9 @@ jdk:
 
 addons:
  sonarcloud:
-  organization: johnscodes-github
+  organization: johnscodes
   token: 
-   secure: travis encrypt 979b12389b2e79bfff3b7c5c14c6f9a13e296a65
+   secure: 979b12389b2e79bfff3b7c5c14c6f9a13e296a65
 
 script: 
  - ant build
