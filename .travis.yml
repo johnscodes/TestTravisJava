@@ -9,5 +9,5 @@ addons:
   token: 979b12389b2e79bfff3b7c5c14c6f9a13e296a65
 
 script: 
- - ./gradlew build
+ - gradlew build
  - sonar-scanner
